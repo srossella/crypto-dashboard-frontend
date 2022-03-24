@@ -71,7 +71,7 @@ Install the latest version of `npm`
 1. Clone the repository
 
    ```sh
-   git clone https://github.com/srossella/polluted-places-frontend.git
+   git clone https://github.com/srossella/crypto-dashboard-frontend.git
    ```
 
 2. Install NPM packages
