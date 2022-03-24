@@ -1,8 +1,7 @@
 
 import './App.css';
-import { useState, useEffect } from 'react';
-import { BrowserRouter as Router} from "react-router-dom";
-import { Routes, Route, useNavigate, useLocation, Navigate} from "react-router-dom";
+import { useState } from 'react';
+import { Routes, Route, useNavigate, Navigate} from "react-router-dom";
 import { getAuth, signInWithEmailAndPassword, 
   createUserWithEmailAndPassword, sendPasswordResetEmail } from 'firebase/auth';
 import { ToastContainer, toast } from 'react-toastify';
@@ -13,7 +12,6 @@ import Login from './pages/Login';
 import CreateTrx from './pages/CreateTrx';
 import Register from './pages/Register';
 import Reset from './pages/Reset';
-import { app } from './firebase-config';
 
 function App() {
 

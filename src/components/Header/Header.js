@@ -28,7 +28,7 @@ export default function Header() {
 if(loggedIn){
   return (
     <>
-      <div className={styles.toggle} onClick={() => (setToggle(!toggle), console.log(toggle))}>
+      <div className={styles.toggle} onClick={() => (setToggle(!toggle))}>
       {
       toggle? 
       <img src={close} width='30' height='30' alt="close icon"/>

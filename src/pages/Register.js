@@ -1,19 +1,9 @@
 import React from 'react'
-import { useNavigate,Link, useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
-import  Form  from '../components/Form/Form'
+import Form from '../components/Form/Form'
 import Header from '../components/Header/Header';
+import {Link}  from 'react-router-dom';
 
 export default function Register({setPassword, setEmail,handleAction}) {
-
-// let navigate= useNavigate()
-
-// useEffect(() => {
-//     let authToken = sessionStorage.getItem('Auth Token')
-//     if (authToken) {
-//       navigate('/')
-//     }
-// }, [])
 
     return (
         <>

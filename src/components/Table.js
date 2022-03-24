@@ -1,4 +1,4 @@
-import DataTable, { TableColumn } from 'react-data-table-component';
+import DataTable from 'react-data-table-component';
 
 const columns = [
     {

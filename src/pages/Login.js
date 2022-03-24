@@ -1,12 +1,12 @@
 import React from 'react'
-import { useNavigate,Link, useLocation } from 'react-router-dom';
+import { useNavigate,Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import  Form  from '../components/Form/Form'
 import Header from '../components/Header/Header';
 
 export default function Login({setPassword, setEmail,handleAction}) {
 
-let navigate= useNavigate()
+let navigate = useNavigate()
 
 useEffect(() => {
     let authToken = sessionStorage.getItem('Auth Token')

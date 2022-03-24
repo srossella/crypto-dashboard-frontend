@@ -1,12 +1,9 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import { useEffect , useState} from 'react';
-import { Link } from 'react-router-dom';
-import Card from '../components/Card/Card'
 import Header from '../components/Header/Header';
 import axios from 'axios';
-import {  toast } from 'react-toastify';
-
+import { toast } from 'react-toastify';
 
 export default function CreateTrx() {
   const [trx, setTrx] = useState({

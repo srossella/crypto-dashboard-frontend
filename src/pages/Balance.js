@@ -1,8 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import { useEffect , useState} from 'react';
-import { Link } from 'react-router-dom';
-import Card from '../components/Card/Card'
+import Card from '../components/Card/Card';
 import Header from '../components/Header/Header';
 
 
@@ -11,12 +10,7 @@ export default function Balance() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [balance, setBalance] = useState([]);
 
-  //add this for protected routes
   let navigate = useNavigate()
-  const handleLogOut = () => {
-      sessionStorage.removeItem('Auth Token');
-      navigate('/login')
-  }
     
   useEffect(() => {
       let authToken = sessionStorage.getItem('Auth Token')
@@ -25,8 +19,7 @@ export default function Balance() {
       }
     }, [])
 
-
-    useEffect(() => {
+  useEffect(() => {
       fetch("http://localhost:3081/balance")
         .then(res => res.json())
         .then(
