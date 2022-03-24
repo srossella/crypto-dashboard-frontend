@@ -34,7 +34,7 @@
 
 ## About The Project & usage
 
-![Product Name Screen Shot](public/screenshot.png)
+![Product Name Screen Shot](public/screenshot.PNG)
 This frontend project provides a user interface for the backend project [Crypto dahsboard](https://github.com/srossella/crypto-dashboard-api). It is built with React. Authentication is implemented with [Firebase](https://firebase.google.com/docs/auth).
 
 It is composed by different pages:
