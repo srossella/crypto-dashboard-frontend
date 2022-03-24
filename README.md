@@ -1,9 +1,9 @@
 <p align="center">
 
-  <h1 align="center">Polluted Places</h1>
+  <h1 align="center">Crypto Dashboard</h1>
 
   <h3 align="center">
-     Keep track of the polluted places
+     Track transactions of different users
   </h3>
 </p>
 
@@ -35,7 +35,7 @@
 ## About The Project & usage
 
 ![Product Name Screen Shot](public/screenshot.png)
-This frontend project provides a user interface for the backend project [Crypto dahsboard](https://github.com/srossella/polluted-places-api). It is built with React. Authentication is implemented with [Firebase](https://firebase.google.com/docs/auth).
+This frontend project provides a user interface for the backend project [Crypto dahsboard](https://github.com/srossella/crypto-dashboard-api). It is built with React. Authentication is implemented with [Firebase](https://firebase.google.com/docs/auth).
 
 It is composed by different pages:
 - a main dashboard, displaying all the transactions
@@ -54,7 +54,7 @@ It is composed by different pages:
 
 ## Getting Started 
 
-Before running the front end application, download and run the related backend project in the backend folder of this repo.
+Before running the front end application, download and run the related backend project in [Crypto dahsboard](https://github.com/srossella/crypto-dashboard-api).
 
 Then, follow the steps below. 
 
