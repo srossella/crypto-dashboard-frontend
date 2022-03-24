@@ -12,6 +12,7 @@ import Login from './pages/Login';
 import CreateTrx from './pages/CreateTrx';
 import Register from './pages/Register';
 import Reset from './pages/Reset';
+import { app } from './firebase-config';
 
 function App() {
 
