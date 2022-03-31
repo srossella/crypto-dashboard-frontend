@@ -20,7 +20,7 @@ export default function Home() {
   }, [])
 
   useEffect(() => {
-    fetch("http://localhost:3081/transactions")
+    fetch("https://crypto-dashboard-rs.herokuapp.com/transactions")
       .then(res => res.json())
       .then(
         (result) => {

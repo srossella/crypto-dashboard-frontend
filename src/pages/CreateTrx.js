@@ -29,7 +29,7 @@ export default function CreateTrx() {
         asset: formData.get('asset'),
       };
       try {
-        const { data } = await axios.post("http://localhost:3081/transactions", form);
+        const { data } = await axios.post("https://crypto-dashboard-rs.herokuapp.com/transactions", form);
         console.log(data)
         toast.success('Transaction created!')
         setTrx({

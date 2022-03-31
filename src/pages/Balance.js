@@ -20,7 +20,7 @@ export default function Balance() {
     }, [])
 
   useEffect(() => {
-      fetch("http://localhost:3081/balance")
+      fetch("https://crypto-dashboard-rs.herokuapp.com/balance")
         .then(res => res.json())
         .then(
           (result) => {
